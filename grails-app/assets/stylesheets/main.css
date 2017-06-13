@@ -121,17 +121,6 @@ img {
 	color: #255b17;
 }
 
-.spinner {
-	background: url(../images/spinner.gif) 50% 50% no-repeat transparent;
-	height: 16px;
-	width: 16px;
-    padding: 0.5em;
-    position: absolute;
-    right: 0;
-	top: 0;
-	text-indent: -9999px;
-}
-
 /* NAVIGATION MENU */
 
 .nav {
@@ -398,6 +387,7 @@ input:invalid:focus, select:invalid:focus, textarea:invalid:focus {
 
 /* TABLES */
 
+/*
 table {
 	border-top: 1px solid #DFDFDF;
 	border-collapse: collapse;
@@ -466,6 +456,7 @@ th.asc a {
 th.desc a {
 	background-image: url(../images/skin/sorted_desc.gif);
 }
+*/
 
 .odd {
 	background: #f7f7f7;
@@ -593,4 +584,9 @@ th:hover, tr:hover {
 a.skip {
 	position: absolute;
 	left: -9999px;
+}
+
+a.skip:focus, a.skip:active {
+	position: relative;
+	left: 0px;
 }
