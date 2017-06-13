@@ -1,0 +1,2 @@
+FROM hub.furycloud.io/mercadolibre/tomcat-runtime:7
+#ENV NEWRELIC_IGNORE_STATUS_CODES=404,403,400,406,304
